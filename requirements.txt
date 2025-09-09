@@ -1,4 +1,17 @@
-aiogram==3.1.0
+# Telegram bot framework
+aiogram>=3.3.0,<4.0.0
+
+# Async HTTP client
 aiohttp==3.8.5
+
+# Environment variables support
 python-dotenv==1.0.1
+
+# Data validation & settings
 pydantic==2.11.2
+
+# Async file handling (used by aiogram)
+aiofiles~=23.1.0
+
+# Ensure typing-extensions compatible with pydantic & aiogram
+typing-extensions>=4.12.2
