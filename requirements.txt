@@ -11,7 +11,7 @@ python-dotenv==1.0.1
 pydantic==2.11.2
 
 # Async file handling (used by aiogram)
-aiofiles~=23.1.0
+aiofiles>=23.2.1,<24.2
 
 # Ensure typing-extensions compatible with pydantic & aiogram
 typing-extensions>=4.12.2
