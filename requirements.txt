@@ -1,8 +1,8 @@
 # Telegram bot framework
 aiogram>=3.3.0,<4.0.0
 
-# Async HTTP client
-aiohttp==3.8.5
+# Async HTTP client (updated to match aiogram requirement)
+aiohttp>=3.9.0,<3.12
 
 # Environment variables support
 python-dotenv==1.0.1
